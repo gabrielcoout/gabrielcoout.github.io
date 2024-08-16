@@ -1,0 +1,171 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Generic Page - Massively by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+			.center-text {
+				text-align: center;
+			}
+		</style>
+		<style>
+			.justify-text {
+				text-align: justify;
+				margin: 20px 40px; /* Define a margem conforme necessário */
+				line-height: 1.6; /* Ajusta o espaçamento entre linhas para melhorar a legibilidade */
+				text-indent: 50px
+			}
+		</style>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<a href="index.html"></a>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li><a href="index.html">home</a></li>
+							<li class="active"><a href="generic.html">Generic Page</a></li>
+						</ul>
+						<ul class="icons">
+							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+							<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Post -->
+							<section class="post">
+								<header class="major">
+									<span class="date">Jan 22, 2024</span>
+									<h3>Análise Estatística da Evasão dos Cursos Presenciais da 
+										Universidade Federal do Pará, Campus de Belém, Entre os Anos de 2014 e 2021</h3>
+									<p>[Texto motivado por um trabalho da disciplina Laboratório de Estatística no 1° semestre de 2023]</p>
+								</header>
+								<div class="image main"><img src="images/image.png" alt="" /></div>
+								
+								<p class="justify-text">
+									Evasão refere-se ao ato de abandonar algo, desistir ou fugir. As definições desse termo podem variar de acordo com a instituição. Conforme definido pelo Ministério da Educação (MEC), evasão é caracterizada como a “saída definitiva do curso de origem sem conclusão, ou a diferença entre ingressantes e concluintes, após uma geração completa” (MEC citado por Mello e Santos, 2012).
+									</p><p class="justify-text">
+									Esta pesquisa adota uma abordagem predominantemente quantitativa, tendo sido conduzida por meio da análise documental. Os dados foram adquiridos com base nos Anuários Estatísticos da Universidade Federal do Pará, que divulgados anualmente pela Pró-Reitoria de Planejamento e Desenvolvimento Institucional (PROPLAN). Estes anuários consistem em tabelas que contêm diversas informações acadêmicas referentes ao ano anterior à publicação, incluindo o número de evasões registradas. As edições utilizadas para esta pesquisa abrangem o período de 2015 a 2022.
+									</p><p class="justify-text">
+									Uma vez que esses dados são disponibilizados publicamente em formato PDF, uma etapa de processamento foi necessária. Esta etapa foi realizada utilizando a linguagem de programação Python, juntamente com o módulo pdfplumber, para extrair dados de forma estruturada dos PDFs, por meio de programação orientada a objetos. Posteriormente, os dados foram armazenados em arquivos no formato CSV. Além disso, foram realizados ajustes utilizando o software Libre Calc, e o módulo Matplotlib foi empregado para a visualização gráfica dos dados.
+									</p>
+									<center><h3>Análise da Evasão Absoluta</h3></center>
+									<p class="justify-text">No período compreendido entre os anos de 2014 e 2021, o número total de alunos evadidos alcançou 12.438, resultando em uma média de aproximadamente 1.555 alunos por ano. Em termos comparativos, essa média representa cerca de 36% do total de vagas preenchidas em 2021, as quais totalizaram 4.268 estudantes. A evasão ao longo do intervalo analisado exibe considerável variação, como ilustrado na Figura 1, apresentando um desvio padrão de 1.137 alunos (aproximadamente).
+									</p>
+									<embed src="images/Evasão total na UFPA por ano.pdf" width="800px" height="2100px" />
+									Conforme evidenciado na Figura 1, o ano de 2018 destacou-se como aquele com o maior número de evasões durante o período de estudo, totalizando 3.990 alunos evadidos. Esse valor é significativamente superior aos registros dos demais anos, quase o dobro do segundo ano com maior evasão, que foi 2014, com 2.172 alunos evadidos. Em contrapartida, o ano de 2016 foi caracterizado pelo menor número de evasões, com 631 casos.
+								
+									Além disso, um aspecto de interesse adicional foi a análise específica das Desistências, uma vez que esse tipo de evasão se configura como um desligamento deliberado, ou seja, ocorre unicamente a partir da decisão do aluno de se desvincular da instituição. Como representado na Figura 2, a desistência no período estudado exibiu um padrão periódico, alternando entre anos com cerca de 800 desistências e anos com mais de 1000. Entre 2014 e 2021, o ano com o maior número de desistências foi 2015, registrando 1680 evasões desse tipo, enquanto o ano com o menor número foi 2016, com 784 desistências. A média de desistências nesse período de seis anos foi de 1130,5, com um desvio padrão de 344,9.
+								
+									Figura 2
+									ANÁLISE DOS TIPOS DE EVASÃO
+									Os anuários analisados segmentam o fenômeno da evasão em diversas categorias, algumas presentes em todas as edições e outras em apenas algumas delas. Entre as categorias de evasão mais recorrentes e significativas nos anuários, destacam-se: Cancelamento por reopção (abrangendo mudanças de curso ou de campus dentro da mesma instituição), Cancelamento por CRPL (Coeficiente de Rendimento por Período Letivo) igual a 0, Decurso de prazo máximo para conclusão de curso, Desistência, Prescrição, Limite de trancamento e Transferência para outras instituições de ensino superior (IES).
+								
+									Figura 3
+									Ánalise dos Cursos
+									Durante o período analisado, o número de cursos oferecidos pela UFPA apresentou variações, passando de 70 cursos em 2014 para 86 cursos em 2021 (UFPA, 2022), com algumas alterações nos nomes dos cursos. Para lidar com essas mudanças, foram consideradas todas as ausências como nulas (iguais a 0).
+								
+									Em termos absolutos, o curso que registrou o maior número de evadidos entre os anos de 2014 e 2021 foi o curso de Letras (considerando Letras — Língua Portuguesa, Letras — Libras, Letras — Inglês, Letras — Espanhol, Letras — Francês, Letras — Alemão), seguido por Física, Engenharia Civil, Pedagogia, Matemática e Ciências Sociais, com 912, 553, 469, 433 e 407 evasões registradas, respectivamente.
+								
+									Entretanto, analisar os cursos em números absolutos pode ter limitações, uma vez que a quantidade de alunos em diferentes cursos é heterogênea. Por exemplo, o curso de Letras oferece, em média, 230 vagas anualmente, um número muito superior que Física, que no total oferta cerca de 130 vagas. De maneira geral, observa-se que os cursos com as maiores evasões absolutas são também aqueles que oferecem mais vagas por ano e, consequentemente, possuem um maior número de alunos.
+								
+									Figura 4
+									Para possibilitar a comparação das evasões entre cursos de diferentes tamanhos, a abordagem adotada foi calcular a razão entre o número de alunos evadidos e o número de vagas ofertadas em um curso no mesmo ano. Em seguida, tomou-se a média dessas razões ao longo do período estudado. Na Figura 5, são apresentados os 15 cursos com a maior média de alunos evadidos por vagas ofertadas.
+								
+									Figura 5
+									Ao comparar a Figura 4 e a Figura 5, observam-se diferenças significativas, com apenas 6 cursos presentes em ambos os gráficos — Letras, Física, Engenharia da Computação, Matemática, Economia e Turismo. Os cursos que registraram a maior evasão relativa, considerando a média de alunos evadidos por vaga ofertada por ano, foram liderados por Engenharia da Computação, com uma média de 1,06 alunos evadidos por vaga, seguido por Meteorologia, com 0,93, Engenharia Química, com 0,70, Estatística, com 0,68, e Engenharia de Alimentos, com 0,66. Esses valores indicam a proporção de alunos evadidos em relação ao número de vagas ofertadas, proporcionando uma perspectiva relativa da evasão em diferentes cursos.
+								
+									Por fim, foi relevante analisar os cursos com a menor taxa de evasão relativa. Os três cursos que apresentaram o menor número relativo de evasões foram, de forma não surpreendente, cursos recém-criados: Conservação e Restauro, Produção Cênica e Desenvolvimento Rural, com médias de 0,047, 0,038 e 0,025 evasões por vaga ofertada, respectivamente. Na Figura 8, estão apresentados os 15 cursos com a menor evasão relativa.
+								
+									Para a análise completa, o acesso a todos os códigos utilizados e a discussão dos resultados, basta visitar o repositório do github.
+								</p>
+							</section>
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<section>
+							<form method="post" action="#">
+								<div class="fields">
+									<div class="field">
+										<label for="name">Name</label>
+										<input type="text" name="name" id="name" />
+									</div>
+									<div class="field">
+										<label for="email">Email</label>
+										<input type="text" name="email" id="email" />
+									</div>
+									<div class="field">
+										<label for="message">Message</label>
+										<textarea name="message" id="message" rows="3"></textarea>
+									</div>
+								</div>
+								<ul class="actions">
+									<li><input type="submit" value="Send Message" /></li>
+								</ul>
+							</form>
+						</section>
+						<section class="split contact">
+							<section class="alt">
+								<h3>Address</h3>
+								<p>1234 Somewhere Road #87257<br />
+								Nashville, TN 00000-0000</p>
+							</section>
+							<section>
+								<h3>Phone</h3>
+								<p><a href="#">(000) 000-0000</a></p>
+							</section>
+							<section>
+								<h3>Email</h3>
+								<p><a href="#">info@untitled.tld</a></p>
+							</section>
+							<section>
+								<h3>Social</h3>
+								<ul class="icons alt">
+									<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+									<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+									<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+									<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+								</ul>
+							</section>
+						</section>
+					</footer>
+
+				<!-- Copyright -->
+					<div id="copyright">
+						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
