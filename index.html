@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gabriel Coutinho Chaves - Resume</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8fafc; /* slate-50 */
+        }
+        .container {
+            max-width: 800px;
+        }
+        .section-title {
+            border-bottom: 2px solid #e2e8f0; /* slate-200 */
+            padding-bottom: 8px;
+            margin-bottom: 16px;
+            font-size: 1.25rem; /* text-xl */
+            font-weight: 600; /* font-semibold */
+            color: #1e293b; /* slate-800 */
+        }
+        .job-title {
+            font-weight: 600;
+            color: #334155; /* slate-700 */
+        }
+        .company-date {
+            color: #64748b; /* slate-500 */
+            font-size: 0.875rem; /* text-sm */
+        }
+        .contact-link {
+            transition: color 0.3s ease;
+        }
+        .contact-link:hover {
+            color: #0ea5e9; /* sky-500 */
+        }
+    </style>
+</head>
+<body class="text-slate-700">
+    <div class="container mx-auto p-6 sm:p-8 bg-white rounded-lg shadow-md my-8">
+
+        <!-- Header Section -->
+        <header class="text-center mb-8">
+            <h1 class="text-4xl font-bold text-slate-800">Gabriel Coutinho Chaves</h1>
+            <div class="flex justify-center items-center flex-wrap gap-x-6 gap-y-2 mt-4 text-slate-600">
+                <a href="mailto:gabriel.coutinho.chaves@usp.br" class="contact-link flex items-center gap-2">
+                    <i class="fas fa-envelope"></i>
+                    gabriel.coutinho.chaves@usp.br
+                </a>
+                <a href="tel:+5516997985878" class="contact-link flex items-center gap-2">
+                    <i class="fas fa-phone"></i>
+                    +55 (16) 99798-5878
+                </a>
+                <a href="https://www.linkedin.com/in/gabrielcoout" target="_blank" class="contact-link flex items-center gap-2">
+                    <i class="fab fa-linkedin"></i>
+                    linkedin.com/in/gabrielcoout
+                </a>
+                <a href="https://github.com/gabrielcoout" target="_blank" class="contact-link flex items-center gap-2">
+                    <i class="fab fa-github"></i>
+                    github.com/gabrielcoout
+                </a>
+            </div>
+        </header>
+
+        <!-- Career Objective Section -->
+        <section class="mb-6">
+            <p class="text-center text-slate-600">
+                Undergraduate student in Applied Mathematics and Computer Science at the University of São Paulo (USP), with experience in optimization, statistics, data analysis, and programming. Seeking internship opportunities in data analysis, business intelligence, data engineering, or financial markets (e.g., risk analysis, quantitative modeling).
+            </p>
+        </section>
+
+        <!-- Experience Section -->
+        <section class="mb-6">
+            <h2 class="section-title">💼 Experience</h2>
+            <div class="space-y-4">
+                <div>
+                    <h3 class="job-title">PEEG Fellow - Teaching Assistant</h3>
+                    <p class="company-date">University of São Paulo (USP) | Mar/2025 – Jun/2025</p>
+                    <p class="mt-1">Provided pedagogical support in laboratory classes and office hours, assisting undergraduate students in learning the C programming language.</p>
+                </div>
+                <div>
+                    <h3 class="job-title">Statistics Project Analyst</h3>
+                    <p class="company-date">ICMC Júnior – USP | Sep/2024 – Present</p>
+                    <p class="mt-1">Developed psychometric analyses with Python, contributed to the open-source software Jamovi, and worked with Google Ads for marketing campaigns.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Relevant Projects Section -->
+        <section class="mb-6">
+            <h2 class="section-title">🧪 Relevant Projects</h2>
+            <div class="space-y-3">
+                <div>
+                    <h3 class="font-semibold">🔢 Simplex Method Implementation</h3>
+                    <p>Developed a Two-Phase Simplex Method using Object-Oriented Programming in Python.</p>
+                </div>
+                <div>
+                    <h3 class="font-semibold">🎧 Audio Compression with SVD</h3>
+                    <p>Performed spectral analysis of audio using STFT and SVD for signal compression and reconstruction.</p>
+                </div>
+                <div>
+                    <h3 class="font-semibold">📊 Letterboxd Visualization</h3>
+                    <p>Scraped and analyzed movie data from Letterboxd, creating visualizations in Python.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section class="mb-6">
+            <h2 class="section-title">🎓 Education</h2>
+             <div>
+                <h3 class="job-title">BSc in Applied Mathematics and Computer Science</h3>
+                <p class="company-date">University of São Paulo (USP) | Aug/2023 – Present</p>
+             </div>
+        </section>
+
+
+        <!-- Certifications Section -->
+        <section>
+            <h2 class="section-title">📚 Certifications</h2>
+            <ul class="list-disc list-inside space-y-1">
+                <li>Data Engineering Fundamentals – Data Science Academy (24h)</li>
+                <li>B2B Marketing and Sales: Closing New Deals – Coursera/USP (12h)</li>
+            </ul>
+        </section>
+
+    </div>
+</body>
+</html>
